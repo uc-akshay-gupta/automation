@@ -133,8 +133,8 @@ fi
 	service nginx restart;
 }
 
-echo "1. To perform all steps 01 to 05 with CUSTOM inputs. (without any reboot)."
-echo "2. To perform all steps 01 to 05 quietly with DEFAULT inputs and all log in /root/wordpress_lemp_stack_setup.log (without any reboot)."
+echo "1. To install and configure LEMP Stack and Wordpress on it with user defined values."
+echo "2. To install and configure LEMP Stack and Wordpress on it with default values."
 echo -e "\nDefault Choice is 2."
 
 if [ -z $1 ]; then
